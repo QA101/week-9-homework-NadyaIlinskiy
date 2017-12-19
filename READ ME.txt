@@ -1,0 +1,2 @@
+I enumerated Header elements with XPath. Stoped there as it seems to be mechanical work at this point.
+Let's make sure I'm doing the right thing before investing any more time here :) 

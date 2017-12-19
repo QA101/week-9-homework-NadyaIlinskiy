@@ -1,0 +1,37 @@
+Automating this page: http://automationpractice.com/index.php?id_category=3&controller=category 
+XPath extracted with Chrome extension 'XPath Helper'
+
+HEADER:
+	Navigation:
+		'Contact us' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[@class='nav']/div[@class='container']/div[@class='row']/nav/div[@id='contact-link']/a
+		'Sign out[log me out]' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[@class='nav']/div[@class='container']/div[@class='row']/nav/div[@class='header_user_info'][2]/a[@class='logout']
+		'[View my customer account]' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[@class='nav']/div[@class='container']/div[@class='row']/nav/div[@class='header_user_info'][1]/a[@class='account']/span
+	
+	'Logo' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='header_logo']/a/img[@class='logo img-responsive']/@src
+	Search:
+		Search box - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='search_block_top']/form[@id='searchbox']/input[@id='search_query_top']
+		Search button - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='search_block_top']/form[@id='searchbox']/button[@class='btn btn-default button-search']
+	
+	Shopping cart - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@class='col-sm-4 clearfix'][2]/div[@class='shopping_cart']/a/b
+	
+	
+		TopMenu 'WOMEN' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce']/a[@class='sf-with-ul']
+			Submenu 'Tops':
+				T-Shits - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[@class='sfHover']/ul/li[1]/a
+				Blouses - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[@class='sfHover']/ul/li[2]/a
+			Submenu 'Dresses':
+				Casual Dresses - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[2]/ul/li[1]/a
+				Evening Dresses - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[2]/ul/li[2]/a
+				Summer Dresses - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHoverForce sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[@class='sfHover']/ul/li[3]/a
+		TopMenu 'DRESSES' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHover']/a[@class='sf-with-ul']
+			Submenu 'Casual Dresses' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[2]/ul[@class='submenu-container clearfix first-in-line-xs']/li[1]/a
+			Submenu 'Evening Dresses' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[2]/a
+			Submenu 'Summer Dresses' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[@class='sfHover']/ul[@class='submenu-container clearfix first-in-line-xs']/li[3]/a
+		TopMenu 'T-SHIRTS' - /html/body[@id='category']/div[@id='page']/div[@class='header-container']/header[@id='header']/div[3]/div[@class='container']/div[@class='row']/div[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[3]/a
+
+MAIN BODY:
+HOME link - /html/body[@id='category']/div[@id='page']/div[@class='columns-container']/div[@id='columns']/div[@class='breadcrumb clearfix']/a[@class='home']/i[@class='icon-home']
+
+
+
+FOOTER:
